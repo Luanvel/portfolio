@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI/UX Designer || FrontEnd Dev</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Sansita+Swashed&family=Sansita:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/navbar.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="/">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="my-art.html">My Art</a></li>
+        </ul>
+      </nav>
+      <p class="cta"><a href="#contact-list">Contact Me!</a></p>
+      <p class="menu cta"><a href="/my-art.html">My Art</a></p>
+    </header>
+
+    <main>
+      <section></section>
+      <section class="introduction">
+        <h1>
+          Hello! I'm <em class="myname"> Verónica Ruiz</em>
+          <br />
+          Junior <strong class="job">UI/UX Designer</strong> with
+          <strong class="job">FrontEnd</strong> Development Skills!
+        </h1>
+      </section>
+      <section></section>
+
+    </main>
+
+
+
+    <div id="snow"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="snow.js"></script>
+    <script type="module">
+      import * as Snow from "/snow.js";
+      var snow = new Snow.default({
+        id: "snow",
+        theme: "pastel",
+        min_size: 2,
+        max_size: 10,
+        amount: 10,
+      });
+      snow.start();
+    </script>
+
+
+
+<!-- ************ PROJECTS / PORTFOLIO  ************** -->
+<section class="projects" id="projects">
+  <div class="content-wrap divider">
+    <h2>Take a look at my Projects!</h2>
+
+    <!-- Project 1 -->
+    <section class="project-item">
+      <img id="cuicuirush" src="/images/cuicui-logov2.png" alt="Guineapig Logo">
+      <h3>CUICUI-RUSH!</h3>
+      <p>Web Designer, illustrator and coworker in Front-End Dev. Currently starting to design the mobile application (game design) with FIGMA.</p>
+      <a class="btn" href="https://www.cuicuirush.com" target="_blank">Let's Rush!</a>
+    </section>
+
+    <!-- Project 2 -->
+    <section class="project-item">
+      <img src="/images/lycorispath.jpg" alt="3 characters from the game">
+      <h3>Lycoris Path</h3>
+      <p>Indie Visual Novel</p>
+      <p>I'm working as a designer and illustrator of this exciting visual novel, with tons of love, drama and action!</p>
+      <a class="btn" href="https://www.instagram.com/softbunsgames/" target="_blank">Stay Tunned!</a>
+    </section>
+
+    <br>
+    <br>
+
+<!-- ****************  WORK EXPERIENCE  ******************** -->
+<section class="work-experience" id="about-me">
+  <div class="content-wrap item-details divider">
+    <h2>Work Experience</h2>
+
+    <!-- Job 1 -->
+    <section class="job-item">
+      <div class="job-details">
+        <h3>Veterinary at GRENP</h3>
+        <p>Part-Time</p>
+        <p>January 2019-Present</p>
+      </div>
+      <div class="job-summary">
+        <p>Exotic Animal Veterinarian at GRENP, currently in charge of the Zoological Nucleus of CREAC (Centre de Recerca i Educació Ambiental de Calafell). See more about us  <a href="https://scea.cat/cens-entitats/centre-de-recerca-i-educacio-ambiental-de-calafell-creac/"> HERE </a>.</p>
+      </div>
+    </section>
+
+    </section>
+  </div>
+</section>
+
+<!-- *************  EDUCATION & CERTIFICATIONS *********** -->
+<section class="education">
+  <div class="content-wrap item-details">
+    <h2>Education</h2>
+
+    <br>
+
+    <section>
+      <h3>Web Application Development (DAW)</h3>
+      <p>IOC (Institut Obert de Catalunya, Currently Studying</p>
+      <p>Superior Grade - Professional Education</p>
+    </section>
+
+    <section>
+      <h3>Complete Web & Mobile Designer in 2022</h3>
+      <p>Zero to Mastery, 2022</p>
+      <p>Mobile and Web Design, User Interface + User Experience (UI/UX Design), FIGMA and HTML&CSS</p>
+    </section>
+
+    <section>
+      <h3>Web Development Bootcamp 2022</h3>
+      <p>Academind, Currently Studying</p>
+      <p>100 days of Web Development - covering HTML, CSS, JavaScript with basis of Node.js and Express.js MySQL and MongoDB.</p>
+    </section>
+
+    <section>
+      <h3>Master's Degree in Exotic Animal Medicine and Surgery</h3>
+      <p>Forvetex, 2017-2018</p>
+    </section>
+
+    <section>
+      <h3>Veterinary Degree (Clinical Specialization)</h3>
+      <p>UAB (Universitat Autonoma de Barcelona), 2010-2015</p>
+    </section>
+
+    <br>
+    <br>
+
+    <h3>See my complete <i>Certifications</i> and <i>Work History</i> on <a id="linkedin-link" href="https://www.linkedin.com/in/veronicaruizab/">LinkedIn</a>.</h3>
+   
+
+
+  </div>
+</section>
+
+<!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+<footer>
+  <div class="content-wrap">
+    <h2 id="keeptouch">Let's Keep in Touch!</h2>
+
+    <!-- Social media and contact links -->
+    <ul class="contact-list" id="contact-list">
+      <li><a href="mailto:veronica.ruizab@gmail.com">veronica.ruizab@gmail.com</a></li>
+      <li><a href="https://github.com/Luanvel" target="_blank">GitHub</a></li>
+      <li><a href="https://www.instagram.com/lunavel.art/" target="_blank">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/veronicaruizab/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>
+</main>
+</body>
+</html>
