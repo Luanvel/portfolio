@@ -202,7 +202,13 @@ footer {
 
 @media only screen and (max-width: 800px) {
   .introduction {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .introduction {
+    flex-flow: row;
   }
 }
