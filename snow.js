@@ -26,8 +26,8 @@ var Snow = function (options) {
   }
 
   //change size
-  var min = 5;
-  var max = 20;
+  var min = 2;
+  var max = 15;
   if (!isNaN(options.min_size)) {
     min = options.min_size;
   }
@@ -134,9 +134,9 @@ var Snowflake = function (canvas, theme, min, max) {
   } else if (theme == "pastel") {
     this.color =
       "hsla(" +
-      random(0, 360) +
+      random(27, 92) +
       "," +
-      random(40, 80) +
+      random(160, 180) +
       "%," +
       random(60, 80) +
       "%)";
