@@ -189,7 +189,7 @@ footer {
   justify-content: center;
 }
 .contact-list a {
-  padding: 15px;
+  padding: 1rem;
   display: inline-block;
 }
 
@@ -201,9 +201,23 @@ footer {
 ----------------------*/
 
 @media only screen and (max-width: 800px) {
+  h1 {
+    text-align: center;
+  }
+
   .introduction {
+    display: flex;
     margin-bottom: 10rem;
     margin-top: 1rem;
+    justify-content: center;
+  }
+  .contact-list {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #keeptouch {
+    margin-bottom: 2.5rem;
   }
 }
 
